@@ -1,6 +1,6 @@
 var gameOn = false;
 var gameIsRunning = false;
-var words = ["helloworld", "computer", "javascript", "southernmethodistuniversity", "programming", "computerscience"];
+var words = ["bloodymary", "paleale", "longislandicetea", "oldfashioned", "margarita", "cosmopolitan"];
 var word;
 var wordContainer = document.getElementById("wordContainer");
 var triesContainer = document.getElementById("triesContainer");
@@ -149,3 +149,4 @@ function updateWins() {
 function win() {
     winCount++;
     updateWins();
+}
